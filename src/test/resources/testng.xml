@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo suite" verbose="1" parallel="methods" thread-count="${thread.count}">
+
+    <test name="Demo Navigation tests tests" >
+        <classes>
+            <class name="org.seleniumhq.NavigationTests"/>
+        </classes>
+    </test>
+</suite>
